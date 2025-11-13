@@ -19,13 +19,17 @@ En clase aprendimos qué es GitHub y para qué sirve. Básicamente, GitHub sirve
 
 Primero instalé Git desde su página oficial. Después configuré mi nombre y mi correo para que quede registrado quién hace los cambios en el repositorio. Aprendí que la rama principal de los proyectos puede llamarse main o master, dependiendo de la versión de Git, y que se puede cambiar si quieres.
 
+![Instalación de Git](images/git-instalacion.png)
+
 Luego creé un repositorio nuevo en GitHub. Elegí si quería que fuera público o privado y si quería añadir un archivo README desde el principio. También aprendí la diferencia entre un repositorio vacío y uno inicializado, y cómo esto cambia la forma de trabajar en local.
 
 Para trabajar en mi ordenador con un repositorio que ya estaba en GitHub, lo cloné, entré en la carpeta y fui haciendo los cambios. Cada vez que añadía cosas, las guardaba con un commit y luego subía todo al repositorio de GitHub para que se actualizara. También aprendimos a crear repositorios desde cero en local y luego vincularlos con un repositorio de GitHub. Aprendí a importar proyectos que ya existían de otras personas y, al final, a publicar todo en GitHub Pages para que se pudiera ver online. Con esto entendí cómo organizar los archivos, trabajar en local y remoto, y publicar proyectos para que cualquiera pueda verlos.
 
+
 Markdown
 
 En clase aprendimos qué es Markdown y para qué sirve. Markdown es un lenguaje de marcas que nos permite dar formato a los textos de manera sencilla sin usar programas complicados. Podemos crear títulos, listas, enlaces, imágenes y resaltar texto fácilmente.
+![introducción MD](images/etiquetas.png)
 
 Encabezados
 
@@ -98,6 +102,8 @@ git commit -m  guardar los cambios
 
 git push origin main  subir los cambios al repositorio de GitHub
 
+![Instalación de Git comandos](images/comandos.png)
+
 HTML
 
 Teoría de HTML
@@ -105,6 +111,8 @@ HTML (HyperText Markup Language) es el lenguaje que se usa para crear páginas w
 
 Los elementos HTML son los bloques de construcción de la web. Cada elemento tiene una etiqueta de apertura, contenido y etiqueta de cierre. Por ejemplo:
 <p>Mi gato es muy gruñón</p>
+
+![Ejemplo del gato](images/gato.png)
 
 Atributos
 Los elementos pueden tener atributos, que añaden información extra sin alterar el contenido. Por ejemplo:
@@ -132,7 +140,7 @@ EJEMPLO:
     <link rel="icon" href="favicon.png">
   </head>
   <body>
-    <img src="imagenes/firefox-icon.png" alt="Mi imagen de prueba">
+    <img src="imagenes/firefox.jpg" alt="Mi imagen de prueba">
   </body>
 </html>
 
@@ -141,7 +149,30 @@ Dentro del <body> hay elementos de bloque, que ocupan toda la línea y pueden co
 Actividad 1: Mi menú saludable
 Hicimos una actividad llamada Mi menú saludable, donde el objetivo era crear una web mostrando cómo preparar un menú saludable con un primer plato, un segundo y un postre. La idea era poner en práctica todo lo aprendido y trabajar siguiendo la metodología de GitHub: primero en local y luego subir los cambios al repositorio remoto.
 
+![Menú saludable](images/menu.png)
+
 La web constaba de cuatro páginas: la principal y una página para cada plato. En la principal puse el título "Com preparar un menú saludable" y enlaces a las otras tres páginas, con imágenes de cada plato. Cada página de receta tenía favicon, un enlace para volver a la principal con un icono de flecha, un encabezado con el título del plato, un índice de contenidos con enlaces a ingredientes, pasos y resultado final, y cada sección estaba separada por líneas horizontales. En la sección de pasos, las cantidades se ponían en negrita y los ingredientes en texto normal, además de añadir imágenes para cada paso. Al final se incluía una imagen del resultado final y un enlace de vuelta al encabezado principal. Organicé las carpetas y los nombres de archivos de forma ordenada, validé todos los documentos HTML con el validador del W3C, publiqué la web en GitHub Pages y añadí la URL en la descripción del repositorio.
 
+Actividad 2: My Spoty
+
+Para poner en práctica todo lo que aprendimos, hicimos una actividad llamada MiSpoty. La intención de la actividad era crear una página web que simulara un pequeño reproductor de
+música, parecido a Spotify, usando solo HTML.
+
+La idea era que la página tuviera:
+Un encabezado principal con el nombre “MiSpoty” y un menú de navegación que enlazara con diferentes secciones de la página, como “Canciones”, “Artistas” y “Álbumes”.
+
+Una sección de canciones: aquí listábamos canciones en un listado ordenado, con el nombre de la canción y el artista. Cada canción tenía un pequeño icono al lado usando <img> para la portada o un play button.
+
+Una sección de artistas: una lista desordenada con los nombres de los artistas y una pequeña imagen de cada uno.
+
+Una sección de álbumes: un índice con enlaces que llevaba a cada álbum en la página
+
+Además, tuvimos que poner imágenes representativas para cada álbum y artista, usando <img> con alt para describirlas y poder mejorar la accesibilidad.
+
+También añadimos listas ordenadas y desordenadas para organizar canciones y artistas, y títulos y subtítulos con <h1>, <h2> y <h3> para que la estructura fuera clara.
+![Ejemplo practico](images/h1h2.png)
+En la sección de artistas, usamos listas desordenadas y añadimos imágenes pequeñas:
+
+![Ejemplo practico](images/myspoty.png)
 
 
