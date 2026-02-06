@@ -269,11 +269,8 @@ Además, se puede indicar el lenguaje del código para que GitHub lo muestre con
 Markdown no es solo un formato para estudiantes. Es una herramienta profesional utilizada en empresas, proyectos open source y documentación técnica real.
 Su simplicidad, junto con su integración perfecta con Git y GitHub, lo convierten en una pieza clave del flujo de trabajo moderno.
 Aprender Markdown no es aprender a dar formato a texto, es aprender a documentar correctamente proyectos informáticos de forma clara, ordenada y mantenible.
-
-
-3.HTML
-
-3.1HTML: lenguaje base para crear páginas web
+HTML
+HTML: lenguaje base para crear páginas web
 HTML es el lenguaje estándar que se utiliza para crear páginas web y es el encargado de mostrar el contenido en el navegador. Cuando accedemos a cualquier página web, el navegador lo primero que hace es leer el código HTML para saber qué tiene que mostrar y cómo está organizado. Todo lo que vemos en una web, como textos, imágenes, enlaces, listas, tablas o formularios, está definido de alguna manera con HTML, aunque luego su apariencia o comportamiento se controle con otros lenguajes.
 Por este motivo, HTML es normalmente el primer lenguaje que se aprende en desarrollo web, ya que actúa como la base de todo el resto. Sin HTML no existiría una estructura sobre la que trabajar, por lo que ni CSS ni JavaScript tendrían sentido. Se puede decir que HTML es el esqueleto de la página web, sobre el cual se construye todo lo demás.
 HTML define la estructura y el contenido de una página mediante etiquetas como <p>, <h1>, <body>, <html>, entre muchas otras. Estas etiquetas indican al navegador qué tipo de contenido es cada parte del documento y cómo debe interpretarlo. Por ejemplo, no es lo mismo un encabezado que un párrafo, aunque ambos contengan texto, y es HTML quien se encarga de marcar esa diferencia.
@@ -284,7 +281,7 @@ HyperText, que hace referencia a textos que pueden enlazar con otros documentos 
 Markup, porque el contenido se organiza y se marca mediante etiquetas, indicando al navegador la función de cada elemento dentro de la página.
 Language, porque HTML tiene unas reglas, una sintaxis y una estructura bien definidas que deben respetarse para que el navegador pueda interpretar correctamente el documento.
 
-3.2Elementos y etiquetas HTML
+Elementos y etiquetas HTML
 Un elemento HTML suele estar formado por tres partes principales que trabajan juntas para definir el contenido de una página web. En primer lugar está la etiqueta de apertura, que indica al navegador dónde empieza el elemento y qué tipo de contenido va a encontrar. A continuación se encuentra el contenido, que es la información visible que se mostrará en la página, como texto, imágenes u otros elementos. Por último, está la etiqueta de cierre, que sirve para indicar dónde termina ese elemento concreto.
 Por ejemplo, un párrafo está compuesto por una etiqueta de apertura, un texto en su interior y una etiqueta de cierre. Gracias a este sistema, el navegador puede interpretar correctamente el documento y saber dónde empieza y acaba cada parte del contenido. Si las etiquetas no están bien cerradas o colocadas, la estructura de la página puede romperse o mostrarse de forma incorrecta.
 Las etiquetas HTML pueden tener atributos, que añaden información extra al elemento y permiten darle más significado o funcionalidad. Algunos atributos muy comunes son class, id, src o alt. Estos atributos sirven, por ejemplo, para identificar elementos, aplicar estilos con CSS, añadir rutas a imágenes o mejorar la accesibilidad de la página. Los atributos siempre se escriben dentro de la etiqueta de apertura y siguen una estructura concreta, donde primero se indica el nombre del atributo y después su valor entre comillas.
@@ -293,7 +290,7 @@ Además de los elementos normales, existen elementos que no tienen contenido ni 
 Este sistema de elementos, etiquetas, atributos y anidación es la base de HTML y permite crear documentos web bien estructurados, legibles y fáciles de mantener, tanto para el navegador como para el desarrollador.
 
 
-3.3Estructura básica de un documento HTML
+Estructura básica de un documento HTML
 Toda página HTML sigue una estructura básica fija que siempre se repite, independientemente de si la web es muy simple o muy compleja. Esta estructura no es opcional, ya que es la forma que tiene el navegador de entender correctamente el documento y saber cómo debe interpretarlo. Si esta estructura no se respeta, la página puede funcionar mal o mostrarse de forma incorrecta.
 Al principio del archivo HTML se encuentra la declaración DOCTYPE. Actualmente no se utiliza para dar estilo ni para añadir contenido a la página, pero sigue siendo un requisito técnico obligatorio. Su función principal es indicarle al navegador que el documento está escrito en HTML moderno y que debe interpretarlo siguiendo los estándares actuales. Gracias al DOCTYPE se evita que el navegador entre en modos antiguos de compatibilidad que pueden provocar errores de visualización.
 Después de la declaración DOCTYPE aparece la etiqueta html, que engloba absolutamente todo el contenido de la página. Esta etiqueta se conoce como el elemento raíz, ya que todos los demás elementos del documento están contenidos dentro de ella. Es la base sobre la que se construye toda la estructura del documento HTML.
@@ -303,7 +300,7 @@ Además, en el head se define el título de la página, que es el texto que apar
 El body contiene todo el contenido visible de la página web, es decir, todo aquello que el usuario ve y con lo que puede interactuar. Aquí se colocan los textos, encabezados, párrafos, imágenes, listas, enlaces, tablas, formularios y cualquier otro elemento que forme parte de la interfaz de la página. Todo lo que aparece en pantalla debe estar dentro del body para que el navegador lo muestre correctamente.
 En resumen, la estructura básica de un documento HTML sirve para organizar la página de forma clara y ordenada, separando la información técnica y de configuración del contenido visible. Esta estructura es la base de cualquier página web y es lo primero que se debe entender y respetar al empezar a trabajar con HTML.
 
-3.4Tipos de elementos HTML
+Tipos de elementos HTML
 En HTML existen principalmente dos tipos de elementos, y entender esta diferencia es fundamental para poder estructurar bien una página web: los elementos de bloque y los elementos de línea. Aunque al principio puedan parecer parecidos, su comportamiento dentro de la página es muy diferente y afecta directamente a cómo se muestra el contenido en el navegador.
 Los elementos de bloque ocupan todo el ancho disponible de la pantalla, independientemente de la cantidad de contenido que tengan dentro. Esto significa que, aunque el texto sea corto, el elemento se extiende de un lado a otro del contenedor. Además, estos elementos generan automáticamente un salto de línea antes y después de ellos, separándose visualmente del resto del contenido. Por este motivo, los elementos de bloque se utilizan para estructurar la página en grandes secciones o bloques de contenido.
 Este tipo de elementos es ideal para organizar la información de la web de forma clara. Encabezados, párrafos, divisores o contenedores son ejemplos típicos de elementos de bloque. Gracias a ellos se pueden crear secciones, agrupar información relacionada y dar una estructura lógica al documento HTML. Normalmente, los elementos de bloque se utilizan como base para después aplicar estilos con CSS y definir el diseño de la página.
@@ -312,7 +309,7 @@ Los elementos de línea se utilizan, por ejemplo, para resaltar palabras, dar é
 Entender bien la diferencia entre elementos de bloque y elementos de línea es básico para trabajar correctamente con HTML. Saber cuándo usar cada tipo evita muchos errores de estructura y facilita tanto el diseño con CSS como el mantenimiento del código. Una buena combinación de ambos tipos permite crear páginas web claras, ordenadas y fáciles de entender tanto para el navegador como para el desarrollador.
 
 
-3.5Normas básicas al escribir HTML
+Normas básicas al escribir HTML
 Al escribir código HTML es muy importante seguir una serie de normas básicas. Aunque el navegador suele ser bastante “permisivo” y a veces muestra la página aunque el código no sea perfecto, no respetar estas normas puede provocar errores, comportamientos extraños o problemas más adelante cuando el proyecto crece.
 La primera norma es que la mayoría de las etiquetas se escriben en pares, es decir, tienen una etiqueta de apertura y una etiqueta de cierre. La etiqueta de apertura indica dónde empieza el contenido y la etiqueta de cierre indica dónde termina. Esto permite al navegador saber exactamente qué parte del texto o contenido pertenece a cada elemento. Si una etiqueta no se cierra correctamente, el navegador puede interpretar mal el resto del documento.
 Existen, sin embargo, algunas etiquetas que son vacías, lo que significa que no tienen contenido dentro y no necesitan etiqueta de cierre. Estas etiquetas cumplen una función concreta, como insertar una imagen o provocar un salto de línea. Aunque no tengan cierre, siguen siendo elementos HTML válidos y deben escribirse correctamente para que funcionen como se espera.
@@ -321,7 +318,7 @@ Los atributos son otra parte clave del HTML y también tienen sus propias normas
 Cumplir todas estas normas básicas no solo evita errores visibles en la página, sino que también hace que el código sea más claro, más fácil de leer y más sencillo de mantener. Un HTML bien escrito ayuda al navegador a interpretar correctamente la página y facilita el trabajo cuando se combina con CSS, JavaScript o cuando el proyecto crece y se vuelve más complejo.
 
 
-3.6Legibilidad y organización del código
+Legibilidad y organización del código
 La legibilidad y la organización del código HTML son aspectos fundamentales a la hora de crear una página web. Aunque el navegador pueda interpretar un código desordenado, trabajar de esa manera no es nada recomendable. Un HTML claro y bien estructurado hace que el documento sea más fácil de entender, tanto para otras personas que puedan trabajar en el proyecto como para ti mismo cuando vuelvas a revisarlo pasado un tiempo.
 Es muy habitual que, semanas o meses después, tengas que modificar una página web. Si el código está mal organizado, sin orden ni estructura, resulta muy complicado localizar errores o entender qué hace cada parte. En cambio, un código limpio y bien escrito permite identificar rápidamente cada sección del documento y facilita mucho el mantenimiento.
 Para mejorar la legibilidad del HTML se utilizan varias técnicas básicas. Una de las más importantes es la sangría o indentación. Consiste en desplazar hacia la derecha las líneas de código que están dentro de otras etiquetas. Esto ayuda a ver claramente qué elementos están dentro de otros y a identificar la jerarquía del documento. Una buena indentación no cambia el resultado visual de la web, pero sí mejora enormemente la comprensión del código.
@@ -330,7 +327,7 @@ Los comentarios son otra herramienta muy útil para mejorar la legibilidad. Los 
 En resumen, escribir HTML de forma clara, ordenada y bien comentada no solo demuestra buenas prácticas, sino que también ahorra tiempo, evita errores y hace que el desarrollo web sea mucho más cómodo. Un código bien organizado es tan importante como que la página funcione correctamente.
 
 
-3.7Etiquetas básicas de HTML
+Etiquetas básicas de HTML
 Las etiquetas básicas de HTML son las más utilizadas y las primeras que se aprenden cuando se empieza a crear páginas web. Son las que permiten construir el contenido principal de una página, organizar la información y darle sentido a cada parte del documento. Sin estas etiquetas, una web sería solo texto plano sin estructura ni orden.
 Los encabezados se utilizan para indicar títulos y subtítulos dentro del contenido. Existen varios niveles de encabezados, que van desde el más importante hasta el menos importante. El encabezado principal suele usarse para el título general de la página y normalmente solo debería haber uno. Los encabezados de niveles inferiores se usan para dividir el contenido en secciones y subsecciones, creando una jerarquía clara.
 Por ejemplo, un título principal podría escribirse como:
@@ -363,7 +360,7 @@ En conjunto, todas estas etiquetas forman la base del contenido de cualquier pá
 
 
 
-3.8Listas en HTML
+Listas en HTML
 Las listas en HTML se utilizan para organizar información de forma clara y ordenada. Son muy habituales en páginas web porque permiten mostrar datos de manera estructurada y fácil de leer. Existen principalmente dos tipos de listas: las desordenadas y las ordenadas, y cada una se usa según el tipo de información que se quiera mostrar.
 Las listas desordenadas se utilizan cuando el orden de los elementos no es importante. Se suelen usar para enumerar características, materiales, apartados o elementos que no siguen una secuencia concreta. Visualmente, el navegador muestra los elementos con símbolos como puntos, círculos o cuadrados.
  Por ejemplo, una lista desordenada podría escribirse así:
@@ -378,7 +375,7 @@ Las listas también pueden anidarse, es decir, se puede colocar una lista dentro
 En resumen, las listas en HTML son una herramienta básica pero muy potente para organizar información. Usarlas correctamente mejora la claridad del contenido y hace que la página sea más fácil de entender para el usuario.
 
 
-3.9 Rutas absolutas y rutas relativas
+Rutas absolutas y rutas relativas
 Las rutas se utilizan en HTML para indicar dónde se encuentran los recursos que usamos en una página web, como imágenes, hojas de estilo o enlaces a otros documentos. Saber usar correctamente las rutas es fundamental para que la web funcione bien y para mantener una buena organización del proyecto.
 Las rutas absolutas indican la ubicación completa de un recurso en la web, empezando siempre desde el dominio. Este tipo de rutas se usan principalmente cuando el archivo que queremos mostrar o enlazar no está dentro de nuestro propio proyecto, sino en un servidor externo. Al usar una ruta absoluta, el navegador sabe exactamente dónde buscar el recurso, independientemente de dónde esté el archivo HTML.
 Por ejemplo, si queremos mostrar una imagen que está alojada en otra página web, usaríamos una ruta absoluta como esta:
@@ -392,7 +389,7 @@ Las rutas relativas hacen que el proyecto sea más flexible y fácil de mantener
 En resumen, las rutas absolutas se usan para recursos externos y las rutas relativas para recursos internos del proyecto. Entender bien la diferencia entre ambas es clave para crear páginas web bien organizadas y sin errores de carga.
 
 
-3.10Imágenes en HTML
+Imágenes en HTML
 Las imágenes son un elemento fundamental en cualquier página web, ya que ayudan a transmitir información de forma visual y hacen que el contenido sea mucho más atractivo para el usuario. En HTML, las imágenes se insertan mediante una etiqueta específica que es un elemento vacío, es decir, no tiene contenido interno ni etiqueta de cierre.
 Para indicar dónde se encuentra la imagen se utiliza un atributo que señala la ubicación del archivo. Esta ubicación puede ser una ruta local, cuando la imagen está dentro del propio proyecto, o una URL externa, cuando la imagen se carga desde otro servidor.
  Por ejemplo, para una imagen guardada en una carpeta del proyecto, se podría escribir algo así:
@@ -423,7 +420,7 @@ Los enlaces no solo pueden contener texto, también pueden envolver imágenes u 
 En resumen, los enlaces son el corazón del hipertexto y uno de los pilares fundamentales de HTML. Permiten conectar información, organizar contenidos y facilitar la navegación tanto dentro de una misma web como hacia recursos externos. Saber usarlos bien es clave para crear páginas web útiles, accesibles y bien estructuradas.
 
 
-3.11 Contenedores y división del contenido
+Contenedores y división del contenido
 En HTML, los contenedores son fundamentales para organizar correctamente el contenido de una página web. El más utilizado de todos es el contenedor div, que sirve para agrupar distintos elementos y darles una estructura lógica dentro del documento. Por sí mismo, el div no tiene ningún significado visual ni semántico, es decir, no cambia cómo se ve la página, pero es una pieza clave a nivel de organización interna.
 El div actúa como una “caja” invisible que permite meter dentro otros elementos como textos, imágenes, listas, enlaces o incluso otros div. Gracias a esto, el desarrollador puede dividir la página en partes claras y manejables, lo que facilita tanto el diseño como el mantenimiento del código.
 Un ejemplo sencillo de un contenedor div podría ser algo como:
@@ -436,7 +433,7 @@ El div también es muy importante cuando se trabaja con CSS, ya que permite apli
 Además, el div es clave cuando se trabaja con JavaScript, ya que sirve como punto de referencia para manipular partes concretas del documento. A través de identificadores o clases, se puede acceder a un div concreto y cambiar su contenido, ocultarlo, mostrarlo o modificar su estilo de forma dinámica.
 Es importante no abusar del uso de div sin sentido. Aunque es muy flexible, un exceso de contenedores puede hacer que el código sea difícil de leer y mantener. Por eso, se recomienda usar div cuando realmente sea necesario para agrupar contenido o estructurar la página.
 
-3.12 Formularios web
+Formularios web
 Los formularios web son uno de los elementos más importantes en cualquier página interactiva, ya que permiten que el usuario envíe información a una web. Gracias a los formularios, una página deja de ser solo algo que se mira y pasa a ser algo con lo que se interactúa. Ejemplos claros de formularios son los inicios de sesión, los registros, los formularios de contacto, encuestas o buscadores.
 Toda la información que introduce el usuario en un formulario puede ser enviada a un servidor para ser procesada o utilizada por la propia aplicación web. Sin formularios, no existirían cosas tan básicas hoy en día como crear una cuenta, enviar un mensaje o realizar una compra online.
 Un formulario se crea usando una etiqueta específica que actúa como contenedor de todos los campos. Dentro de este contenedor se colocan los distintos campos de entrada, que son los elementos donde el usuario escribe o selecciona información. Por ejemplo, un formulario puede contener campos de texto para el nombre, un campo de contraseña, un botón para enviar los datos, casillas de verificación o listas desplegables.
@@ -454,7 +451,7 @@ Los formularios también suelen incluir botones para enviar o resetear la inform
 
 
 
-3.13 Tablas en HTML
+Tablas en HTML
 Las tablas en HTML se utilizan para representar datos estructurados en filas y columnas, de una forma clara y ordenada. Son muy comunes cuando se quiere mostrar información comparativa, listados, horarios, precios, usuarios, notas o cualquier tipo de datos que tengan relación entre sí. Aunque hoy en día no se usan para maquetar páginas (eso se hace con CSS), siguen siendo fundamentales para mostrar datos.
 Una tabla se construye a partir de un contenedor principal que engloba toda la información. Dentro de ese contenedor se organizan las filas y, dentro de cada fila, las celdas. Esta estructura permite que el navegador entienda perfectamente cómo debe distribuir los datos en pantalla.
 Una tabla puede dividirse en tres partes principales, lo que mejora mucho la organización y la legibilidad:
@@ -479,10 +476,7 @@ Además, las tablas pueden tener títulos descriptivos que explican qué informa
 <caption>Listado de alumnos</caption>
 El contenido de las celdas también se puede alinear de distintas formas, por ejemplo a la izquierda, al centro o a la derecha, dependiendo del tipo de información que se esté mostrando. Los números, por ejemplo, suelen alinearse a la derecha para que sean más fáciles de comparar.
 Aunque visualmente una tabla puede parecer simple, por dentro tiene una estructura muy clara y estricta. Respetar esta estructura hace que la información sea más comprensible, más accesible y más fácil de mantener.
-
-
 CSS
-
 ¿Qué es CSS?
 CSS (Cascading Style Sheets, u Hojas de Estilo en Cascada) es un lenguaje que se utiliza para definir el diseño, la apariencia visual y la presentación de los documentos HTML o XHTML. Es decir, CSS se encarga de todo lo relacionado con cómo se ve una página web, mientras que HTML se encarga de qué contenido tiene y cómo está estructurado.
 Mientras HTML define elementos como títulos, párrafos, imágenes, enlaces o formularios, CSS decide aspectos visuales como el color del texto, el tamaño de las letras, los espacios entre los elementos, la colocación de cada bloque en la pantalla o incluso cómo se adapta la web a distintos tamaños de pantalla. Ambos lenguajes trabajan juntos, pero cada uno tiene una función muy clara y diferenciada.
@@ -2557,4 +2551,8 @@ Una sola columna para facilitar la lectura
 
 
 Todo esto se consigue solo con CSS, usando media queries.
+
+
+Fin de los "Apuntes".
+Esta todo muy extendido para verlo en mayor profundidad y con ejemplos escritos.
 
