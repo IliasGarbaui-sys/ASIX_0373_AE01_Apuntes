@@ -2553,6 +2553,5 @@ Una sola columna para facilitar la lectura
 Todo esto se consigue solo con CSS, usando media queries.
 
 
-Fin de los "Apuntes".
-Esta todo muy extendido para verlo en mayor profundidad y con ejemplos escritos.
+
 
